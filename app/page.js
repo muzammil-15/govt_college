@@ -9,6 +9,7 @@ import Features from "@/components/features";
 import Qualities from "@/components/qualities";
 import Footer from "@/components/footer";
 import Hero from "@/components/hero";
+import Faq from "@/components/faq";
 
 export default function Home() {
   return <main className="w-[100%]">
@@ -16,6 +17,8 @@ export default function Home() {
     <Hero/>
     <Cards/>
     <About/>
+    <Faq/>
+    
     <Events/>
     <Testimonial/>
     <Features/>
