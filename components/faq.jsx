@@ -29,7 +29,7 @@ const Faq = () => {
   return (
     <div className="flex flex-col md:flex-row md:items-center mb-8 my-20 py-10 bg-slate-100 px-[5%]">
       <div className="md:w-1/2 md:mr-8">
-        <h2 className='subhead text-center mb-4'>FAQ's</h2> <br />
+        <h2 className='subhead text-center mb-4'>FAQ&apos;s</h2> <br />
         {faqData.map((data, idx)=>(
             <FaqItem question={data.question} answer={data.answer} key={idx}/>
         ))}
