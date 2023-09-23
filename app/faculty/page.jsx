@@ -9,12 +9,12 @@ const Faculty = () => {
         subtitle="Principle"
       />
       <FeaturesCard
-        image={"/p1.jpg"}
+        image={"/p8.jpeg"}
         title="Karim Baksh"
         subtitle="Vice Principle"
       />
       <FeaturesCard
-        image={"/p2.jpeg"}
+        image={"/p7.jpeg"}
         title="Abdul Aziz"
         subtitle="Urdu Lecturer"
       />
