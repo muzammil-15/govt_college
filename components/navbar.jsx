@@ -64,18 +64,18 @@ const Navbar = () => {
     </nav>
 
     <div
-        className={`flex bg-gray-200 px-10 py-5 rounded-md items-start justify-center flex-col gap-3 absolute right-5 top-15 z-10 ${isMenuOpen? 'hidden':'block'} md:hidden `}
+        className={`flex bg-gray-200 px-10 py-5 rounded-md items-start justify-center flex-col gap-3 absolute right-5 top-15 z-10 ${isMenuOpen? 'block':'hidden'} md:hidden `}
       >
-        <Link href="#" className="navlinks hover:text-gray-600">
+        <Link href="/" className="navlinks hover:text-gray-600">
             Home
         </Link>
         <Link href="#" className="navlinks hover:text-gray-600">
             Campus
         </Link>
-        <Link href="#" className="navlinks hover:text-gray-600">
+        <Link href="/admission" className="navlinks hover:text-gray-600">
             Admission
         </Link>
-        <Link href="#" className="navlinks hover:text-gray-600">
+        <Link href="/faculty" className="navlinks hover:text-gray-600">
             Faculty
         </Link>
         <Link href="#" className="navlinks hover:text-gray-600">
