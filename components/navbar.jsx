@@ -44,7 +44,7 @@ const Navbar = () => {
       <div
         className={`hidden md:flex md:items-center md:justify-center gap-4`}
       >
-        <Link href="#" className="navlinks hover:text-gray-600">
+        <Link href="/" className="navlinks hover:text-gray-600">
             Home
         </Link>
         <Link href="#" className="navlinks hover:text-gray-600">
