@@ -53,7 +53,7 @@ const Navbar = () => {
         <Link href="/admission" className="navlinks hover:text-gray-600">
             Admission
         </Link>
-        <Link href="#" className="navlinks hover:text-gray-600">
+        <Link href="/faculty" className="navlinks hover:text-gray-600">
             Faculty
         </Link>
         <Link href="#" className="navlinks hover:text-gray-600 border py-2 px-3">
