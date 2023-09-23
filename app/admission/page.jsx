@@ -28,7 +28,20 @@ const Admission = () => {
     
       const handleSubmit = async (e) => {
         e.preventDefault();
-      
+        setFormData({
+          name: "",
+          cnic: "",
+          gender: "",
+          dateOfBirth: "",
+          postalAddress: "",
+          domacileDistrict: "",
+          email: "",
+          contactNo: "",
+          photo: "",
+          marksheetPhoto: "",
+          cnicPhoto: "",
+          domacilePhoto: ""
+        })
         console.log(formData);
     
       }

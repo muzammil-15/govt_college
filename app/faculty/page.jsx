@@ -4,7 +4,7 @@ const Faculty = () => {
   return (
     <div className="mt-10 mx-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
       <FeaturesCard
-        image={"/p.jpeg"}
+        image={"/pp.jpeg"}
         title="Manzoor Karim"
         subtitle="Principle"
       />
