@@ -8,7 +8,7 @@ const Qualities = () => {
       className="bg-cover bg-center mt-20 text-[#f7dc79] text-center"
       style={{
         backgroundImage:
-          'url("https://img.freepik.com/free-photo/aerial-view-residence-bukovinian-dalmatian-metropolitans-chernivtsi-national-university-chernivtsi-touristic-destination-western-ukraine_231208-41.jpg?size=626&ext=jpg&ga=GA1.2.1857347792.1692965009&semt=ais")',
+          'url("/staff.jpeg")',
       }} // Replace with your image URL
     >
       <div className="w-full h-full bg-[#422e59d5] py-20">

@@ -36,7 +36,7 @@ const Faq = () => {
         
       </div>
       <div className="md:w-1/2">
-        <img src={"https://gcgilgit.edu.pk/wp-content/uploads/2020/07/DSC_0034-for-web-2.jpg"} alt={"college"} className="w-full" />
+        <img src={"/staff.jpeg"} alt={"college"} className="w-full" />
       </div>
     </div>
   )

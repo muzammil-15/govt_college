@@ -7,7 +7,7 @@ const Hero = () => {
       className="bg-cover bg-center  text-[#f7dc79] text-center w-full h-[95vh] mb-20"
       style={{
         backgroundImage:
-          'url("https://img.freepik.com/free-photo/aerial-view-residence-bukovinian-dalmatian-metropolitans-chernivtsi-national-university-chernivtsi-touristic-destination-western-ukraine_231208-41.jpg?size=626&ext=jpg&ga=GA1.2.1857347792.1692965009&semt=ais")',
+          'url("/college.jpeg")',
       }} // Replace with your image URL
     >
         <div className="w-full h-full bg-[#422e59d5] py-10 flex justify-center gap-10 md:gap-20 items-center flex-col">
@@ -19,7 +19,7 @@ const Hero = () => {
                 <Link
                 title="Apply Now"
                 className='bg-[#f7dc79] py-4 px-8 text-[#422e59d5] text-lg font-semibold rounded-md '
-                href="/"
+                href="/admission"
                 
             >Apply Now</Link>
             </div>

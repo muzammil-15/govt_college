@@ -50,7 +50,7 @@ const Navbar = () => {
         <Link href="#" className="navlinks hover:text-gray-600">
             Campus
         </Link>
-        <Link href="#" className="navlinks hover:text-gray-600">
+        <Link href="/admission" className="navlinks hover:text-gray-600">
             Admission
         </Link>
         <Link href="#" className="navlinks hover:text-gray-600">
