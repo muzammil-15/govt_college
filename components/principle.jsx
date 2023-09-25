@@ -6,7 +6,7 @@ const Principle = () => {
   return (
     <div className="bg-slate-200 py-10">
       <h2 className="w-[95%] mx-auto subhead text-center ">
-        What Principle Say's
+        What Principle Say&apos;s
       </h2>
       <div className="flex flex-col lg:flex-row mx-4 lg:mx-20 my-10 items-center">
         <div className="lg:w-1/2 lg:pr-4">
