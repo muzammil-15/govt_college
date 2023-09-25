@@ -1,6 +1,7 @@
 "use client"
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,10 +12,11 @@ const Navbar = () => {
 
   return (
     <>
-    <nav className="w-[95%] mx-auto p-4 flex justify-between items-center">
-      <div className="flex items-center">
-        <Link href={'/'}>
-            <div className="navlinks">Government College Danyore</div>
+    <nav className="w-[95%] mx-auto p-1 flex justify-between items-center">
+      <div className="flex items-center ">
+        <Link href={'/'} className='flex items-center gap-2'>
+          <Image src={'/logo.png'} width={80} height={50} alt='logo'/>
+            <div className="navlinks mt-4">Government College Danyore</div>
         </Link>
         
       </div>
@@ -47,8 +49,8 @@ const Navbar = () => {
         <Link href="/" className="navlinks hover:text-gray-600">
             Home
         </Link>
-        <Link href="#" className="navlinks hover:text-gray-600">
-            Campus
+        <Link href="/event" className="navlinks hover:text-gray-600">
+            Events
         </Link>
         <Link href="/admission" className="navlinks hover:text-gray-600">
             Admission
@@ -56,8 +58,8 @@ const Navbar = () => {
         <Link href="/faculty" className="navlinks hover:text-gray-600">
             Faculty
         </Link>
-        <Link href="#" className="navlinks hover:text-gray-600 border py-2 px-3">
-            Learn More
+        <Link href="/program" className="navlinks hover:text-gray-600 border py-2 px-3">
+            Programs
         </Link>
         
       </div>
@@ -69,8 +71,8 @@ const Navbar = () => {
         <Link href="/" className="navlinks hover:text-gray-600">
             Home
         </Link>
-        <Link href="#" className="navlinks hover:text-gray-600">
-            Campus
+        <Link href="/event" className="navlinks hover:text-gray-600">
+            Events
         </Link>
         <Link href="/admission" className="navlinks hover:text-gray-600">
             Admission
@@ -78,8 +80,8 @@ const Navbar = () => {
         <Link href="/faculty" className="navlinks hover:text-gray-600">
             Faculty
         </Link>
-        <Link href="#" className="navlinks hover:text-gray-600">
-            Learn More
+        <Link href="/program" className="navlinks hover:text-gray-600">
+            Programs
         </Link>
         
       </div>

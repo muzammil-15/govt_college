@@ -7,26 +7,32 @@ const Cards = () => {
         <Card
             title={"Events"}
             icon={"/images1.png"}
+            href={"/event"}
         />
         <Card
             title={"LMS"}
             icon={"/lms1.png"}
+            href={"/lms"}
         />
         <Card
             title={"Program"}
             icon={"/project1.png"}
+            href={"/program"}
         />
         <Card
-            title={"Social"}
+            title={"Alumni"}
             icon={"/social1.png"}
+            href={"/faculty"}
         />
         <Card
             title={"Library"}
             icon={"/library1.png"}
+            href={"/library"}
         />
         <Card
             title={"Admission"}
             icon={"/admission1.png"}
+            href={"/admission"}
         />
     </div>
   )

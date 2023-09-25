@@ -10,6 +10,7 @@ import Qualities from "@/components/qualities";
 import Footer from "@/components/footer";
 import Hero from "@/components/hero";
 import Faq from "@/components/faq";
+import Principle from "@/components/principle";
 
 export default function Home() {
   return <main className="w-[100%]">
@@ -17,6 +18,8 @@ export default function Home() {
     <Hero/>
     <Cards/>
     <About/>
+    <Principle/>
+
     <Faq/>
     
     <Events/>
@@ -24,7 +27,7 @@ export default function Home() {
     <Features/>
     <Qualities/>
     <Footer/>
-    
+      
     
     
   </main>;
