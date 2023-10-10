@@ -11,6 +11,8 @@ import Footer from "@/components/footer";
 import Hero from "@/components/hero";
 import Faq from "@/components/faq";
 import Principle from "@/components/principle";
+import Scolarships from "@/components/scolarships";
+import Notification from "@/components/notification";
 
 export default function Home() {
   return <main className="w-[100%]">
@@ -27,6 +29,9 @@ export default function Home() {
     <Features/>
     <Qualities/>
     <Footer/>
+    <Scolarships/>
+    <Notification/>
+
       
     
     

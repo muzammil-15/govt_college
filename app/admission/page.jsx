@@ -57,7 +57,8 @@ const Admission = () => {
           <select className="p-2 border border-gray-300 rounded">
             <option value="course1">Hssc 1</option>
             <option value="course2">Hssc 2</option>
-            <option value="course3">Ada</option>
+            <option value="course3">Ade</option>
+            <option value="course3">BS English</option>
           </select>
         </div>
         <div className="flex mb-6">
